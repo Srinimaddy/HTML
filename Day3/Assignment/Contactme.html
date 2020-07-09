@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+      background-image: url(Contact.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+  }
+* {box-sizing: border-box;}
+
+
+input[type=text], select, textarea {
+  position:center;
+  width: 100%;
+  padding: 12px;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #330;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #3049;
+}
+.c{
+	width:100%;
+}
+
+.container {
+	margin-left: 30%;
+	margin-right:30%;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 30px;
+}
+</style>
+</head>
+<body>
+<form action="Thankyou.html">
+
+ <div class ="c">
+ 	<div class="container">
+  <form action="/action_page.php">
+  	 	<center>
+        <h2>Contact Form</h2>
+        </center>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name here..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name here..">
+
+    <label for="address">Address</label>
+    <input type="text" id="adress" add="address" placeholder="Type your address here..">
+
+      
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+ </div>
+
+
+</body>
+</html>

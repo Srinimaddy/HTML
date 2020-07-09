@@ -1,0 +1,13 @@
+/*External stylesheet*/
+body{
+     background-image:url(Cristiano.jpg); 
+    }
+div{
+	background-color:lightgreen;
+	height:300px;
+	width:300px;
+     	border-width:4px 5px 3px 6px;
+	border-style: double dashed solid dotted;
+	border-color: green blue red yellow;
+	*/border: 4px darkgreen solid;compled property value*/
+	}
